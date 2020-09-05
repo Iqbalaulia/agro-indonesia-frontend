@@ -6,7 +6,7 @@
     >
       <div class="container">
         <a href="/" class="navbar-brand">
-          <img src="/images/logo.svg" alt="Logo" />
+          <img src="/images/Agronesia.svg" alt="Logo" />
         </a>
         <button
           class="navbar-toggler"

@@ -14,10 +14,7 @@
             data-aos-delay="100"
           >
             <a href="#" class="component-categories d-block">
-              <div class="categories-image">
-                <img src="/images/icon/gadget.svg" alt="" class="w-100" />
-              </div>
-              <p class="categories-text">Gadgets</p>
+              <p class="categories-text">Kopi</p>
             </a>
           </div>
           <div
@@ -26,10 +23,7 @@
             data-aos-delay="200"
           >
             <a href="#" class="component-categories d-block">
-              <div class="categories-image">
-                <img src="/images/icon/furniture.svg" alt="" class="w-100" />
-              </div>
-              <p class="categories-text">Furniture</p>
+              <p class="categories-text">Tembakau</p>
             </a>
           </div>
           <div
@@ -38,10 +32,7 @@
             data-aos-delay="300"
           >
             <a href="#" class="component-categories d-block">
-              <div class="categories-image">
-                <img src="/images/icon/makeup.svg" alt="" class="w-100" />
-              </div>
-              <p class="categories-text">Makeup</p>
+              <p class="categories-text">Kelapa</p>
             </a>
           </div>
           <div
@@ -50,10 +41,7 @@
             data-aos-delay="400"
           >
             <a href="#" class="component-categories d-block">
-              <div class="categories-image">
-                <img src="/images/icon/sneaker.svg" alt="" class="w-100" />
-              </div>
-              <p class="categories-text">Sneaker</p>
+              <p class="categories-text">Karet</p>
             </a>
           </div>
           <div
@@ -62,10 +50,7 @@
             data-aos-delay="500"
           >
             <a href="#" class="component-categories d-block">
-              <div class="categories-image">
-                <img src="/images/icon/tools.svg" alt="" class="w-100" />
-              </div>
-              <p class="categories-text">Tools</p>
+              <p class="categories-text">Tebu</p>
             </a>
           </div>
           <div
@@ -74,10 +59,7 @@
             data-aos-delay="600"
           >
             <a href="#" class="component-categories d-block">
-              <div class="categories-image">
-                <img src="/images/icon/baby.svg" alt="" class="w-100" />
-              </div>
-              <p class="categories-text">Baby</p>
+              <p class="categories-text">Teh</p>
             </a>
           </div>
         </div>
