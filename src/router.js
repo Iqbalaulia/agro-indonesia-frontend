@@ -2,6 +2,7 @@ import Vue from "vue";
 import Router from "vue-router";
 import Home from "./views/Home.vue";
 import Detail from "./views/Detail.vue";
+import Categories from "./views/Categories.vue";
 
 Vue.use(Router);
 
@@ -26,6 +27,11 @@ export default new Router({
       path: "/detail",
       name: "detail",
       component: Detail,
+    },
+    {
+      path: "/category",
+      name: "category",
+      component: Categories,
     },
   ],
 });
