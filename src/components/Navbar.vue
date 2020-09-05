@@ -19,15 +19,12 @@
         <div class="collapse navbar-collapse" id="navbarResponsive">
           <ul class="navbar-nav ml-auto">
             <li class="nav-item active">
-             <router-link to="/" class="nav-link">
-                Home
-                </router-link
+              <router-link to="/" class="nav-link"> Home </router-link>
             </li>
             <li class="nav-item">
               <router-link to="/category" class="nav-link">
                 Categories
-                </router-link
-              >
+              </router-link>
             </li>
             <li class="nav-item">
               <a href="/rewards.html" class="nav-link">Rewards</a>
