@@ -33,10 +33,10 @@
               <a href="/register.html" class="nav-link">Register</a>
             </li>
             <li class="nav-item active">
-              <a
-                href="/login.html"
+              <router-link
+                to="/login"
                 class="btn btn-success nav-link px-4 text-white text-center"
-                >Sign In</a
+                >Sign In</router-link
               >
             </li>
           </ul>
