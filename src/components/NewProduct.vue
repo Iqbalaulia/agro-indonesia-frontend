@@ -13,7 +13,7 @@
             data-aos="fade-up"
             data-aos-delay="100"
           >
-            <a href="/details.html" class="component-products d-block">
+            <router-link to="/detail" class="component-products d-block">
               <div class="products-thumbnail">
                 <div
                   class="products-image"
@@ -22,7 +22,7 @@
               </div>
               <div class="products-text">Kebun Karet</div>
               <div class="products-price">Rp.100000</div>
-            </a>
+            </router-link>
           </div>
           <div
             class="col-6 col-md-4 col-lg-3"
