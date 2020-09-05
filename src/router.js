@@ -3,6 +3,7 @@ import Router from "vue-router";
 import Home from "./views/Home.vue";
 import Detail from "./views/Detail.vue";
 import Categories from "./views/Categories.vue";
+import ShoppingCart from "./views/ShoppingCart.vue";
 
 Vue.use(Router);
 
@@ -32,6 +33,11 @@ export default new Router({
       path: "/category",
       name: "category",
       component: Categories,
+    },
+    {
+      path: "/cart",
+      name: "cart",
+      component: ShoppingCart,
     },
   ],
 });
