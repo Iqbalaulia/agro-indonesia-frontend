@@ -18,10 +18,20 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarResponsive">
           <ul class="navbar-nav ml-auto">
-            <li class="nav-item active">
+            <li
+              :class="[
+                currentPage.includes('home') ? activeClass : '',
+                'nav-item',
+              ]"
+            >
               <router-link to="/" class="nav-link"> Home </router-link>
             </li>
-            <li class="nav-item">
+            <li
+              :class="[
+                currentPage.includes('category') ? activeClass : '',
+                'nav-item',
+              ]"
+            >
               <router-link to="/category" class="nav-link">
                 Categories
               </router-link>
@@ -29,10 +39,15 @@
             <li class="nav-item">
               <a href="/rewards.html" class="nav-link">Rewards</a>
             </li>
-            <li class="nav-item active">
+            <li class="nav-item">
               <a href="/register.html" class="nav-link">Register</a>
             </li>
-            <li class="nav-item active">
+            <li
+              :class="[
+                currentPage.includes('/') ? activeClass : '',
+                'nav-item',
+              ]"
+            >
               <router-link
                 to="/login"
                 class="btn btn-success nav-link px-4 text-white text-center"
@@ -49,5 +64,15 @@
 <script>
 export default {
   name: "Navbar",
+  computed: {
+    currentPage() {
+      return this.$route.path;
+    },
+  },
+  data() {
+    return {
+      activeClass: "active",
+    };
+  },
 };
 </script>
